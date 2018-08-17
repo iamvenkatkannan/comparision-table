@@ -1,0 +1,159 @@
+/*common styles*/
+
+a{text-decoration: none !important}
+label{color: #888;text-transform: capitalize;font-size: 12px;}
+input.form-control{height:40px;border: 1px solid #ddd;border-radius: 0}
+textarea.form-control{height:100px;border: 1px solid #ddd;border-radius: 0;resize: none}
+input.form-control:focus{border:1px solid #ddd;box-shadow: none}
+textarea.form-control:focus{border:1px solid #ddd;box-shadow: none}
+.float{float: left;}
+.w-100{width: 100%}
+.mar-top-15{margin-top: 15px;}
+.mar-top-20{margin-top: 20px;}
+.mar-top-25{margin-top: 25px;}
+.mar-top-30{margin-top: 30px;}
+.mar-top-40{margin-top: 40px;}
+.mar-top-50{margin-top: 50px;}
+.mar-bot-15{margin-bottom: 15px;}
+.mar-bot-20{margin-bottom: 20px;}
+.mar-bot-25{margin-bottom: 25px;}
+.mar-bot-30{margin-bottom: 30px;}
+.mar-bot-40{margin-bottom: 40px;}
+.mar-bot-50{margin-bottom: 50px;}
+.mar-10{margin: 0 10px;}
+.mar-20{margin: 0 20px;}
+.mar-30{margin: 0 30px;}
+.pad-top-15{padding-top: 15px;}
+.pad-top-20{padding-top: 20px;}
+.pad-top-25{padding-top: 25px;}
+.pad-top-30{padding-top: 30px;}
+.pad-top-40{padding-top: 40px;}
+.pad-top-50{padding-top: 50px;}
+.pad-bot-15{padding-bottom: 15px;}
+.pad-bot-20{padding-bottom: 20px;}
+.pad-bot-25{padding-bottom: 25px;}
+.pad-bot-30{padding-bottom: 30px;}
+.pad-bot-40{padding-bottom: 40px;}
+.pad-bot-50{padding-bottom: 50px;}
+.pad-10{padding: 0 10px;}
+.pad-20{padding: 0 20px;}
+.pad-30{padding: 0 30px;}
+.pad-right-5{padding-right: 5px;}
+.pad-right-10{padding-right: 10px;}
+.pad-right-15{padding-right: 15px;}
+.pad-right-20{padding-right: 20px;}
+.pad-right-30{padding-right: 30px;}
+.pad-left-5{padding-left: 5px;}
+.pad-left-10{padding-left: 10px;}
+.pad-left-15{padding-left: 15px;}
+.pad-left-20{padding-left: 20px;}
+.pad-left-30{padding-left: 30px;}
+
+
+body#login{background: -webkit-linear-gradient(180deg, #efefef 0%, #fff 100%);height: 100vh;width: 100%;position: relative}
+.login_card{width: 350px;position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;
+            height: 335px;box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.12);background: #fff}
+.login_card .form-group input{border: none;border-bottom: 1px solid #ddd;box-shadow: none;border-radius: 0;}
+.forgot_password_card{height: 390px;}
+.login_card .form-group label{font-size: 12px;color: #aaa}
+.login_card .form-group{width: 80%;margin: auto;margin-bottom: 10px;}
+.gradient_text h1 {font-size: 35px;margin: 25px 0;text-transform: uppercase;text-align: center;letter-spacing: 5px;
+                   background: linear-gradient(to right, #fc466b 40%, #405efb 60%);font-weight: 600;
+                   -webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.common_btn button{border:2px solid #fb466c;width: 120px;color: #888;height: 40px;
+                   -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+                   -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+                   border-image: linear-gradient(to right, #fc466b 0%, #405efb 100%);
+                   border-image-slice: 1;}
+.common_btn a{border:2px solid #fb466c;width: 120px;color: #fff;height: 40px;
+              -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+              -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+              border-image: linear-gradient(to right, #fc466b 0%, #405efb 100%);
+              border-image-slice: 1;background: linear-gradient(to right, #fc466b 0%, #405efb 100%);
+              background: -moz-linear-gradient(to right, #fc466b 0%, #405efb 100%);}
+.common_btn button:hover{text-decoration: none;border: 2px solid #fb466c;color: #aaa}
+.common_btn a:hover{text-decoration: none;color: #fff;background: linear-gradient(to right,#405efb 0%, #fc466b 100%);
+border: 2px solid }
+.forgot_password{width: 90%;float: left;margin: auto;margin-bottom: 20px;}
+.forgot_password a{font-size: 12px;color: #F06292}
+.navigation ul{padding: 0;margin: 0}
+.navigation ul li{list-style:none;display: inline-block;padding:0 5px;}
+.navigation ul li a{padding: 0 20px;padding-left: 0;color: #888;vertical-align: super}
+.navigation ul li svg{width: 25px;height: 25px;}
+header{float: left;width: 100%;border-bottom: 2px solid #ddd;
+       box-shadow: 1px 1px 10px rgba(0,0,0,0.2);}
+.action_btns a svg{height: 20px;width: 20px;opacity: 0.5}
+.user_management ul{padding: 0;}
+.user_management ul li{display: inline-block;position: relative}
+.user_management ul li:before{content: '';position: absolute;right: 15px;top: 0;bottom: 0;height: 30px;width: 1px;
+                              background: #ddd;}
+.user_management ul li:last-child:before{display: none}
+.user_management ul li a{color: #3b3b3b;font-size: 18px;text-transform: capitalize;padding: 10px 0;
+                         font-weight: 600;opacity: 0.5}
+.user_management ul li a.active{opacity: 1;color: #f6476f}
+.table thead tr th{color: #fc466b;border: 0;padding: 15px 0;}
+.table tbody tr td{border-top: 1px solid #efefef;}
+.table thead tr th:last-child{text-align: right;position: relative;right: 40px;}
+.table tbody tr td:last-child{text-align: right}
+a.view:hover svg{fill:#2196F3;opacity: 1}
+a.edit:hover svg{fill:#4CAF50;opacity: 1}
+a.delete:hover svg{fill:#ff0000;opacity: 1}
+.add_icon svg{height: 27px;width: 27px;fill:#6b6b6b}
+.add_icon{position: relative;top: 30px;left: 20px;}
+<<<<<<< HEAD
+.gradient_btn{background: linear-gradient(to right, #fc466b 0%, #405efb 100%);color: #fff !important;
+              transition:  all linear 0.2s;-webkit-transition:  all linear 0.2s;-moz-transition:  all linear 0.2s}
+.gradient_btn:hover{border: none !important;
+                    border-image: linear-gradient(to right, #fc466b 0%, #405efb 100%);
+                    transition:  all linear 0.2s;-webkit-transition:  all linear 0.2s;-moz-transition:  all linear 0.2s}
+
+/*select box*/
+
+.custom-select {position: relative;padding: 0}
+.custom-select select {display: none;}
+.select-selected {background-color: #fff;}
+.select-selected:after {position: absolute;content: "";top: 14px;right: 10px;
+                        width: 0;height: 0;border: 6px solid transparent;border-color: #aaa transparent transparent transparent;}
+.select-selected.select-arrow-active:after {border-color: transparent transparent #fff transparent;top: 7px;}
+.select-items div,.select-selected{color: #6b6b6b;padding: 8px 16px;border: 1px solid #ddd;cursor: pointer;
+                                   user-select: none;position: relative}
+.select-items {position: absolute;background-color: #fff;top: 100%;left: 0;right: 0;z-index: 99;
+               border: 1px solid #ddd}
+.select-hide {display: none;}
+.select-items div{border: none;}
+.same-as-selected{color: #fff !important;}
+.select-items div:hover, .same-as-selected {background: linear-gradient(to right, #fc466b 0%, #405efb 100%);color: #fff}
+.align_input{width: 45%;margin: 0 15px;margin-bottom: 20px;}
+.custom-select label{position: relative;left: 15px;}
+.align_column .align_input:last-child{clear: left}
+.align_input:nth-of-type(7){clear: left}
+
+/*checkbox*/
+
+.check_box {display: inline-block;position: relative;padding-left: 35px;margin-top: 25px;
+            margin-bottom: 12px;margin-right: 20px;cursor: pointer;font-size: 14px;
+            -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;
+            user-select: none;font-weight: 600;}
+.check_box input {position: absolute;opacity: 0;cursor: pointer;}
+.checkmark {position: absolute;top: 0;left: 0;height: 25px;width: 25px;background-color: #eee;}
+.check_box:hover input ~ .checkmark {background-color: #ccc;}
+.check_box input:checked ~ .checkmark {background: #ef4876}
+.checkmark:after {content: "";position: absolute;display: none;}
+.check_box input:checked ~ .checkmark:after {display: block;}
+.check_box .checkmark:after {left: 9px;top: 5px;width: 5px;height: 10px;
+                             border: solid white;border-width: 0 3px 3px 0;
+                             -webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}
+
+/*file choosen*/
+
+.upload-btn-wrapper {position: relative;overflow: hidden;display: inline-block;width: 100%}
+.browse_btn {border: none;padding: 8px 20px;border-radius: 8px;
+  font-size:14px;font-weight: 600;width: 100%;color: #fff;height: 40px;
+  border-radius: 0px;background: linear-gradient(to right,#405efb 0%, #fc466b 100%);}
+.upload-btn-wrapper input[type=file] {font-size: 100px;position: absolute;
+  left: 0;top: 0;opacity: 0;}
+=======
+.gradient_btn{background: linear-gradient(to right, #fc466b 0%, #405efb 100%);}
+.gradient_btn:hover{border: none !important}
+
+>>>>>>> sirva-gurumoorthy-design-v1
